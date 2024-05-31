@@ -1,0 +1,13 @@
+p {
+    text-align: center;
+    font-family: var(--mat-toolbar-title-text-font);
+    font-size: 17px;
+    color: white;
+    font-weight: 550;
+}
+
+div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #DE9B95;
+}

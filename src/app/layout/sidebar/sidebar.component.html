@@ -1,0 +1,19 @@
+<div *ngIf="isVisible">
+    <mat-sidenav mode="side" opened>
+        <mat-nav-list>
+            <a mat-list-item routerLink="">
+                <mat-icon matListItemIcon>home</mat-icon>
+                <div matListItemTitle>Home</div>
+            </a>
+            <a mat-list-item routerLink="/products">
+                <mat-icon matListItemIcon>widgets</mat-icon>
+                <div matListItemTitle>Products</div>
+            </a>
+            <a mat-list-item routerLink="/login">
+                <mat-icon matListItemIcon>person</mat-icon>
+                <div matListItemTitle>Login</div>
+            </a>
+          </mat-nav-list>
+    </mat-sidenav>
+    
+</div>

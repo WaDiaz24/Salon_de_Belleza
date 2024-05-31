@@ -1,0 +1,23 @@
+img {
+    height: 200px;
+    object-fit: scale-down;
+}
+
+mat-card {
+    margin-bottom: 10px;
+    
+}
+
+.price {
+    font-size: medium;
+    font-weight: bold;
+}
+
+mat-chip{
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #DE4BB7;
+    color: white;
+}

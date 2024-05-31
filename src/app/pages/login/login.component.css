@@ -1,0 +1,87 @@
+.contenedor {
+    display: flex;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    /* Asegura que la imagen cubra todo el área sin distorsionarse */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.formulario {
+    padding-left: 55%;
+}
+
+h3,
+p {
+    color: #DE4BB7;
+}
+
+.inputs {
+    width: 280px;
+}
+
+input {
+    margin: 4px 0 8px 0;
+    padding: 12px 10px 12px 40px;
+    border-radius: 8px;
+    width: 100%;
+    border: #DE9B95 1px solid;
+    font-size: 16px;
+}
+
+mat-icon {
+    position: absolute;
+    margin: 10px;
+    color: #DE9B95;
+}
+
+input:focus {
+    border: #DE4BB7 3px solid;
+    outline: none;
+}
+
+.datos {
+    display: flex;
+}
+
+.button {
+    background-color: #DE4BB7;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.registrate {
+    border: none;
+    background-color: transparent;
+    color: #DE4BB7;
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-link a {
+    color: #DE4BB7;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+<div class="container">
+    <div>
+        <mat-card class="demo-inline-calendar-card">
+            <mat-calendar [(selected)]="selected"></mat-calendar>
+        </mat-card>
+    </div>
+    <div>
+        <form action="" class="formulario">
+            <div>
+                <mat-icon matSuffix>person</mat-icon>
+                <input type="text" placeholder="Nombre">
+            </div>
+            <div class="input-container">
+                <label for="services">Servicios</label>
+                <select id="services" name="services">
+                    <option *ngFor="let servicio of servicios" [value]="servicio">{{ servicio }}</option>
+                </select>
+            </div>
+            <p>Fecha: {{selected}}</p>
+            <input type="text" placeholder="Mensaje">
+            <div class="buton">
+                <button>RESERVAR AHORA</button>
+            </div>
+        </form>
+    </div>
+</div>

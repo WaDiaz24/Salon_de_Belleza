@@ -1,0 +1,19 @@
+.contenedor {
+    display: flex;
+    flex-flow: column;
+    height: 100%; 
+}
+
+mat-sidenav-container {
+    flex: 1 1 auto;
+}
+
+mat-sidenav {
+    min-width: 300px;
+}
+
+.padding {
+    overflow-x: hidden;
+}
+
+

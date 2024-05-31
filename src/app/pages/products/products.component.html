@@ -1,0 +1,15 @@
+@if (products.length) {
+    <h2>Catalogo de Productos</h2>
+
+
+<div class="row contenedor">
+    @for (product of products; track product.id) {
+        <div class="col-md-4 col-sm-6 col-12">
+            <app-product [product]="product"/>
+        </div>
+        
+    }
+</div>
+}@else {
+    <div class="spinner"><mat-spinner/></div>
+}

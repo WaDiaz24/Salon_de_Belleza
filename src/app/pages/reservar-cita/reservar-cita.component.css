@@ -1,0 +1,88 @@
+.container {
+    padding: 0 22%;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.demo-inline-calendar-card {
+    width: 400px;
+}
+
+.formulario {
+    margin-left: 30px;
+    max-width: 400px;
+}
+
+.formulario input, p,
+button {
+    margin: 4px 0 8px 0;
+    padding: 12px 10px 12px 40px;
+    border-radius: 8px;
+    width: 230px;
+    border: #DE9B95 1px solid;
+    font-size: 16px;
+}
+
+.formulario input:focus{
+    border: #DE4BB7 3px solid;
+    outline: none;
+}
+
+mat-icon {
+    position: absolute;
+    margin: 10px;
+    color: #DE9B95;
+}
+
+button {
+    background-color: #DE4BB7;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.buton {
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 21px;
+}
+
+/* services-dropdown.component.css */
+.input-container {
+    width: 260px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #DE9B95;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .input-container select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #DE9B95;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .input-container select:focus {
+    border: 2px solid #DE9B95;
+    outline: none;
+  }

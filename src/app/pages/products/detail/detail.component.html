@@ -1,0 +1,23 @@
+@if (product) {
+<div class="full-screen">
+    <h2 class="text-center">{{product.name}}</h2>
+
+<div class="row">
+    <div class="col-md-4 col-sm-6 col-12">
+        <img [src]="product.image_link" alt="">
+    </div>
+    <div class="col-md-4 col-sm-6 col-12">
+        <div><mat-chip>{{product.category}}</mat-chip></div>
+        <p>{{product.description}}</p>
+        <div class="price">{{product.price | currency}}</div>
+        <div><button mat-raised-button class="button" (click)="addToCart()">
+                <mat-icon>add_shopping_cart</mat-icon>
+                Add to cart
+            </button></div>
+    </div>
+</div>
+</div>
+
+}@else{
+<h2>Cargando...</h2>
+}

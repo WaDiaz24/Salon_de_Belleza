@@ -1,4 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%;}
+body { 
+    margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-toolbar.mat-accent {
+    --mat-toolbar-container-background-color: #DE9B95;
+}
+
+html {
+    --mat-toolbar-standard-height: 84px;
+    --mat-toolbar-mobile-height: 56px;
+}
+
+.mdc-notched-outline {
+    border: #DE9B95 1px solid;
+    border-radius: 5px;
+}
+
+.mdc-text-field--outlined .mat-mdc-form-field-infix {
+    width: 240px;
+}

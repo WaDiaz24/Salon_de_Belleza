@@ -1,0 +1,32 @@
+img {
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.price {
+    text-align: end;
+    font-size: large;
+    font-weight: bold;
+}
+
+.full-screen {
+    padding: 0% 20%;
+}
+
+.button {
+    padding: 5px;
+    background-color: #DE4BB7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: var(--mat-toolbar-title-text-font);
+    font-size: 19px;
+    font-weight: 500;
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+
+.button:hover {
+    font-size: 21px;
+}
