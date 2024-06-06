@@ -7,6 +7,7 @@ import { ReservarCitaComponent } from './pages/reservar-cita/reservar-cita.compo
 import { DetailComponent } from './pages/products/detail/detail.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { RegisterComponent } from './pages/login/register/register.component';
+import { TeampageComponent } from './pages/teampage/teampage.component';
 
 export const routes: Routes = [
     {
@@ -50,5 +51,9 @@ export const routes: Routes = [
     {
         path: 'cart',
         component: CartComponent
+    },
+    {
+        path: 'teampage',
+        component: TeampageComponent
     }
 ];

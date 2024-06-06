@@ -1,4 +1,4 @@
-<div *ngIf="isVisible">
+<div *ngIf="isVisible" class="sidenav-container">
     <mat-sidenav mode="side" opened>
         <mat-nav-list>
             <a mat-list-item routerLink="">
@@ -13,7 +13,18 @@
                 <mat-icon matListItemIcon>person</mat-icon>
                 <div matListItemTitle>Login</div>
             </a>
+            <a mat-list-item routerLink="/about-me">
+                <mat-icon matListItemIcon>person_search</mat-icon>
+                <div matListItemTitle>Sobre Nosotros</div>
+            </a>
+            <a mat-list-item routerLink="/reservar-cita">
+                <mat-icon matListItemIcon>event</mat-icon>
+                <div matListItemTitle>Reservar Cita</div>
+            </a>
+            <a mat-list-item routerLink="/cart">
+                <mat-icon matListItemIcon>shopping_cart</mat-icon>
+                <div matListItemTitle>Carrito de Compras</div>
+            </a>
           </mat-nav-list>
-    </mat-sidenav>
-    
+    </mat-sidenav>   
 </div>

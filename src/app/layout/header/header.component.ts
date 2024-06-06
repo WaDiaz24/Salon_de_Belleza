@@ -5,14 +5,17 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { RouterLink } from '@angular/router';
 import { SidebarService } from '../../service/sidebar.service';
 import { CartButtonComponent } from './cart-button/cart-button.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-layout-header',
   standalone: true,
   imports: [MatToolbarModule, MatButtonModule, 
-    MatIconModule, RouterLink, CartButtonComponent],
+    MatIconModule, RouterLink, CartButtonComponent,
+  MatSidenavModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.css',
+  
 })
 export class HeaderComponent {
   name = "SALON DE BELLEZA";

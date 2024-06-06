@@ -42,3 +42,32 @@
   border: 2px solid transparent;
   border-radius: 10px;
 }
+
+
+
+/* CSS global (styles.css o header.component.css) */
+
+/* Esconde los botones en pantallas más pequeñas */
+@media (max-width: 1200px) {
+  .nav-button.reserve, .nav-button.about {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-button.services, .nav-button.cart-button {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-button.home, .nav-button.login {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-header {
+    padding: 0;
+  }
+}

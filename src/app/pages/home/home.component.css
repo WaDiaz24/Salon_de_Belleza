@@ -36,3 +36,26 @@ html, body {
     cursor: pointer;
     font-size: 21px;
 }
+
+/* Media query para pantallas menores o iguales a 480px */
+@media (max-width: 480px) {
+    .parrafo {
+        font-size: 18px;
+        padding: 0 10%;
+        height: 61vh;
+        padding-bottom: 25%;
+    }
+
+    .parrafo button {
+        font-size: 18px;
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+@media(max-width:420px){
+    .parrafo{
+        padding-bottom: 42%;
+    }
+}
+

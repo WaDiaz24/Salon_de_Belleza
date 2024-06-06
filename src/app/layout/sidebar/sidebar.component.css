@@ -5,6 +5,12 @@
     bottom: 0;
     top: 0;
   }
+
+  .sidenav-container {
+    position: fixed;
+    height: 52%; /* Asegúrate de que ocupe toda la altura de la pantalla */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
   
   .example-sidenav-content {
     display: flex;

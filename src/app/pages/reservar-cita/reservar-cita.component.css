@@ -86,3 +86,23 @@ button:hover {
     border: 2px solid #DE9B95;
     outline: none;
   }
+
+  @media (max-width: 480px) {
+    .container {
+        flex-direction: column; /* Asegura que los elementos estén en columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+        padding: 0;
+    }
+    .demo-inline-calendar-card {
+        width: 300px;
+    }
+
+    .formulario {
+        margin: 0; /* Remueve el margen izquierdo */
+        max-width: 100%; /* Asegura que el formulario ocupe el ancho completo */
+    }
+
+    .formulario button{
+        width: 80%; /* Asegura que los elementos del formulario ocupen el ancho completo */
+    }
+  }

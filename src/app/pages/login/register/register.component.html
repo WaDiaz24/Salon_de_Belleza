@@ -3,18 +3,18 @@
         <img src="../../../assets/images/salon_de_belleza.jpg" alt="">
     </div>
     <div class="formulario">
-        <form action="">
+        <form action="" (ngSubmit)="register()">
             <h3>Registro</h3>
-            <p>Por favor complete su información acontinuación</p>
+            <p>Por favor complete su información a continuación.</p>
             <div class="inputs">
                 <mat-icon matSuffix>person</mat-icon>
-                <input type="text" placeholder="Nombre de Usuario" required>
+                <input [(ngModel)]="username" name="username" type="text" placeholder="Nombre de Usuario" required>
                 <mat-icon matSuffix>mail</mat-icon>
-                <input type="email" placeholder="E-mail" required>
+                <input [(ngModel)]="email" name="email" type="email" placeholder="E-mail" required>
                 <mat-icon matSuffix>lock</mat-icon>
-                <input type="password" placeholder="Contraseña" required>
+                <input [(ngModel)]="password" name="password" type="password" placeholder="Contraseña" required>
                 <mat-icon matSuffix>lock</mat-icon>
-                <input type="password" placeholder="Confirmar Contraseña" required>
+                <input [(ngModel)]="confirmPassword" name="confirmPassword" type="password" placeholder="Confirmar Contraseña" required>
 
                 <p class="login-link">¿Ya tienes una cuenta? <a href="login">Iniciar sesión</a></p>
             </div>

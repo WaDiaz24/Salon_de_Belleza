@@ -4,18 +4,14 @@
   </button>
   <span class="title">{{name}}</span>
   <div class="services-header">
-    <button routerLink="" [class.hover]="activeButton === 'home'"
-    (click)="setActiveButton('home')">Home</button>
-    <button routerLink="/products" [class.hover]="activeButton === 'products'"
-    (click)="setActiveButton('products')">Servicios</button>
-    <button routerLink="/about-me" [class.hover]="activeButton === 'about-me'"
-    (click)="setActiveButton('about-me')">Acerca de Nosotros</button>
-    <button routerLink="/reservar-cita" [class.hover]="activeButton === 'reservar-cita'"
-    (click)="setActiveButton('reservar-cita')">Reservar Cita</button>
+    <button class="nav-button home" routerLink="" [class.hover]="activeButton === 'home'" (click)="setActiveButton('home')">Home</button>
+    <button class="nav-button services" routerLink="/products" [class.hover]="activeButton === 'products'" (click)="setActiveButton('products')">Servicios</button>
+    <button class="nav-button about" routerLink="/about-me" [class.hover]="activeButton === 'about-me'" (click)="setActiveButton('about-me')">Acerca de Nosotros</button>
+    <button class="nav-button reserve" routerLink="/reservar-cita" [class.hover]="activeButton === 'reservar-cita'" (click)="setActiveButton('reservar-cita')">Reservar Cita</button>
   </div>
   <span class="example-spacer"></span>
-  <app-cart-button/>
-  <button routerLink="login" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+  <app-cart-button class="nav-button cart-button"/>
+  <button class="nav-button login" routerLink="login" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
     <mat-icon>person</mat-icon>
   </button>
 </mat-toolbar>

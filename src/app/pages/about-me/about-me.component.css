@@ -1,7 +1,6 @@
 .contenedor {
-    padding: 0 200px;
+    padding: 0 15%;
     display: flex;
-
 }
 h3 {
     text-align: center;
@@ -32,3 +31,13 @@ h3 {
     width: 55px;
     height: 55px;
   }
+
+@media (max-width: 480px) {
+    .contenedor{
+        display: block;
+    }
+    .container {
+        margin-left: 0;
+        width: 85%;
+    }
+}

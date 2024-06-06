@@ -3,14 +3,14 @@
         <img src="../../../assets/images/salon_de_belleza.jpg" alt="">
     </div>
     <div class="formulario">
-        <form action="">
+        <form action="" (ngSubmit)="login()">
             <h3>Login</h3>
-            <p>Por favor complete su información acontinuación</p>
+            <p>Por favor complete su información a continuación.</p>
             <div class="inputs">
                 <mat-icon matSuffix>mail</mat-icon>
-                <input id="email" type="email" name="email" placeholder="E-mail" required>
+                <input [(ngModel)]="email" name="email" id="email" type="email" name="email" placeholder="E-mail" required>
                 <mat-icon matSuffix>lock</mat-icon>
-                <input type="password" placeholder="Contraseña" required>
+                <input [(ngModel)]="password" name="password" type="password" placeholder="Contraseña" required>
             </div>
             <button type="submit" class="button">Ingresar</button>
         </form>
