@@ -21,3 +21,5 @@ html {
 .mdc-text-field--outlined .mat-mdc-form-field-infix {
     width: 240px;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
