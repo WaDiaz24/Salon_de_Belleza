@@ -1,17 +1,17 @@
-.contenedor {
-    padding: 0 15%;
+.caja {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 h3 {
     text-align: center;
 }
-.container {
+.contenedor {
     border-radius: 10px;
     background-color: rgba(222, 155, 149, 0.6);
-    /* Los divs hijos tomarán partes iguales del contenedor */
     padding: 20px;
     margin-top: 50px;
-    margin-left: 5px;
 }
 .follow {
     margin-top: 80px;
@@ -31,13 +31,3 @@ h3 {
     width: 55px;
     height: 55px;
   }
-
-@media (max-width: 480px) {
-    .contenedor{
-        display: block;
-    }
-    .container {
-        margin-left: 0;
-        width: 85%;
-    }
-}
