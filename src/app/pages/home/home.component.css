@@ -1,26 +1,30 @@
-html, body {
-    background-image: url('../../../assets/images/home-barberia.jpg');
+html,
+body {
+    background-image: url('../../../assets/images/home_salondebelleza.avif');
     background-size: cover;
-}
-.parrafo{
-    font-size: 25px;
-    color: white;
-    margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-    font-weight: 500;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 5%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* Empuja el contenido al final del contenedor */
-    height: 61vh; /* Altura del viewport */
-    background: linear-gradient(to top, rgba(222, 155, 149, 0.8), rgba(255, 64, 129, 0)); /* Gradiente rosado */
-    align-items: center;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
 }
 
-.parrafo button {
+.parrafo {
+    margin: 0 auto;
+    background-color: #DE9B95;
+    font-size: 120%;
+    color: white;
+    font-weight: 500;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #DE4BB7;
+    border-radius: 1em;
+}
+
+.fondo{
+    position: fixed;
+    top: 11em;
+}
+
+button {
     background-color: #DE4BB7;
     border: 2px solid transparent;
     border-radius: 10px;
@@ -29,33 +33,10 @@ html, body {
     font-weight: bold;
     padding: 7px;
     width: 200px;
-    margin-top: 20px;
+    margin-top: 1em;
 }
 
 .parrafo button:hover {
     cursor: pointer;
     font-size: 21px;
 }
-
-/* Media query para pantallas menores o iguales a 480px */
-@media (max-width: 480px) {
-    .parrafo {
-        font-size: 18px;
-        padding: 0 10%;
-        height: 61vh;
-        padding-bottom: 25%;
-    }
-
-    .parrafo button {
-        font-size: 18px;
-        padding: 10px;
-        width: 100%;
-    }
-}
-
-@media(max-width:420px){
-    .parrafo{
-        padding-bottom: 42%;
-    }
-}
-
