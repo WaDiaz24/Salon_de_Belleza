@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './layout/header/header.component';
 import { SidebarComponent } from './layout/sidebar/sidebar.component';
@@ -6,7 +6,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { MatSidenav, MatSidenavModule } from '@angular/material/sidenav';
-import { NgIf, SlicePipe } from '@angular/common';
+import { NgIf, registerLocaleData, SlicePipe } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +16,8 @@ import { NgIf, SlicePipe } from '@angular/common';
     MatSidenavModule, NgIf
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
   title = 'salon_de_belleza';
