@@ -1,5 +1,5 @@
 .contenedor{
-    padding: 0 10%;
+    margin: 0 auto;
 }
 .responsive-table {
     width: 100%;
@@ -10,23 +10,4 @@
 .responsive-table td {
     padding: 8px;
     text-align: left;
-}
-
-@media (max-width: 480px){
-    .contenedor{
-        padding: 0;
-    }
-    .responsive-table{
-        display: block;
-        overflow-x: auto;
-
-    }
-
-    .responsive-table thead tr {
-        display: none;
-    }
-
-    .responsive-table tr {
-        margin-bottom: 15px;
-    }  
 }
