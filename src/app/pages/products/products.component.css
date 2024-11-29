@@ -2,22 +2,13 @@ h2 {
   text-align: center;
 }
 
-.example-card {
-    max-width: 400px;
-  }
-  
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-  }
-
-  mat-button-toggle {
-    margin-bottom: 10px;
-  }
-
-.contenedor {
-  padding: 0 15%;
+.responsive-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; /* Opcional: centra las columnas */
 }
+
 
 .spinner{
   padding-left: 45%;
