@@ -7,7 +7,7 @@ body {
 .mat-toolbar.mat-accent {
     --mat-toolbar-container-background-color: #DE9B95;
 }
-
+ 
 html {
     --mat-toolbar-standard-height: 84px;
     --mat-toolbar-mobile-height: 56px;

@@ -1,26 +1,28 @@
 <div class="container">
-    <div>
-        <mat-card class="demo-inline-calendar-card">
-            <mat-calendar [(selected)]="selected"></mat-calendar>
-        </mat-card>
-    </div>
-    <div>
-        <form action="" class="formulario">
-            <div>
-                <mat-icon matSuffix>person</mat-icon>
-                <input type="text" placeholder="Nombre" required>
-            </div>
-            <div class="input-container">
-                <label for="services">Servicios</label>
-                <select id="services" name="services">
-                    <option *ngFor="let servicio of servicios" [value]="servicio">{{ servicio }}</option>
-                </select>
-            </div>
-            <p>Fecha: {{selected}}</p>
-            <input type="text" placeholder="Mensaje">
-            <div class="buton">
-                <button type="submit">RESERVAR AHORA</button>
-            </div>
-        </form>
+    <div class="row g-0">
+        <div class="container-div col-12 col-md-10">
+            <mat-card class="demo-inline-calendar-card">
+                <mat-calendar [(selected)]="selected"></mat-calendar>
+            </mat-card>
+        </div>
+        <div class="container-div col-12 col-md-6">
+            <form action="" class="formulario">
+                <div>
+                    <mat-icon matSuffix>person</mat-icon>
+                    <input type="text" placeholder="Nombre" required>
+                </div>
+                <div class="input-container">
+                    <label for="services">Servicios</label>
+                    <select id="services" name="services">
+                        <option *ngFor="let servicio of servicios" [value]="servicio">{{ servicio }}</option>
+                    </select>
+                </div>
+                <p>Fecha: {{selected | date: 'fullDate'}}</p>
+                <input type="text" placeholder="Mensaje">
+                <div class="buton">
+                    <button type="submit">RESERVAR AHORA</button>
+                </div>
+            </form>
+        </div>
     </div>
 </div>

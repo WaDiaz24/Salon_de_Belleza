@@ -63,21 +63,3 @@ body {
     color: #0073b1;
     cursor: pointer; /* Color de LinkedIn */
 }
-
-/* Media query para pantallas menores o iguales a 480px */
-@media (max-width: 480px) {
-    .container {
-        width: 80%;
-        padding: 10px;
-    }
-
-    .profile {
-        width: 100%;
-        margin: 10px 0;
-    }
-
-    .social-icons a {
-        font-size: 18px;
-        margin: 0 5px;
-    }
-}
