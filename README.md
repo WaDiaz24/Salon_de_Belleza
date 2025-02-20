@@ -8,21 +8,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Proyecto Universitario
 
-Este proyecto fue desarrollado para la materia de Análisis y Modelos de Sistemas. Durante su ejecución, se llevó a cabo un levantamiento de requerimientos con el objetivo de cubrir una necesidad específica que podría presentarse en diversos entornos.
+Este proyecto fue desarrollado para la materia de Análisis y Diseño de Sistemas. Durante su ejecución, se llevó a cabo un levantamiento de requerimientos con el objetivo de cubrir una necesidad específica que podría presentarse en diversos entornos.
 
 En su desarrollo, se trabajó en múltiples secciones. Algunas de estas se completaron con un diseño integral, mientras que otras quedaron pendientes. Respecto a los requisitos funcionales, estos no fueron implementados en su totalidad, por lo que el proyecto aún tiene áreas de oportunidad para su mejora y finalización.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
