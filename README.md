@@ -6,9 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Proyecto Universitario
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este proyecto fue desarrollado para la materia de Análisis y Modelos de Sistemas. Durante su ejecución, se llevó a cabo un levantamiento de requerimientos con el objetivo de cubrir una necesidad específica que podría presentarse en diversos entornos.
+
+En su desarrollo, se trabajó en múltiples secciones. Algunas de estas se completaron con un diseño integral, mientras que otras quedaron pendientes. Respecto a los requisitos funcionales, estos no fueron implementados en su totalidad, por lo que el proyecto aún tiene áreas de oportunidad para su mejora y finalización.
 
 ## Build
 
